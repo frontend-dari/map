@@ -16,7 +16,7 @@ class GeoReview {
   
   /* InteractiveMap */
 
-class InteractiveMap {
+InteractiveMap {
   constructor(mapId, onClick) {
     this.mapId = mapId;
     this.onClick = onClick;
