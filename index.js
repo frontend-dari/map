@@ -7,7 +7,7 @@ function init() {
   });
 }
 
-export default class GeoReview {
+class GeoReview {
   constructor() {
     this.map = new InteractiveMap('map', this.onClick.bind(this));
     this.map.init().then(this.onInit.bind(this));
@@ -16,7 +16,7 @@ export default class GeoReview {
   
   /* InteractiveMap */
 
-export default class InteractiveMap {
+class InteractiveMap {
   constructor(mapId, onClick) {
     this.mapId = mapId;
     this.onClick = onClick;
